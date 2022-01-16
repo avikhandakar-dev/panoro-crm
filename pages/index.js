@@ -18,9 +18,19 @@ export default function Home() {
           Module
         </a>
       </Link>
+      <Link href="/details">
+        <a className="w-32 font-semibold aspect-square flex justify-center items-center bg-pink-500 rounded-md shadow-md text-white">
+          Details
+        </a>
+      </Link>
       <Link href="/recover">
         <a className="w-32 font-semibold aspect-square flex justify-center items-center bg-purple-500 rounded-md shadow-md text-white">
           Recover
+        </a>
+      </Link>
+      <Link href="/finish">
+        <a className="w-32 font-semibold aspect-square flex justify-center items-center bg-green-500 rounded-md shadow-md text-white">
+          Finish
         </a>
       </Link>
     </div>
